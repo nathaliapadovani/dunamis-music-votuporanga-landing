@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === "development" ? "/" : "/dunamis-music-votuporanga-landing/",
+  base: "./", // 👈 caminho relativo (ESSENCIAL para GitHub Pages)
   server: {
     host: "::",
     port: 8080,
