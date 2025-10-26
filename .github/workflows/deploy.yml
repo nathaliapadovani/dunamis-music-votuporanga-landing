@@ -32,8 +32,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build (Vite) with relative base for GH Pages
-        run: npm run build -- --base ./
+      - name: Build (Vite) for GitHub Pages
+        run: npm run build -- --base=/dunamis-music-votuporanga-landing/
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
