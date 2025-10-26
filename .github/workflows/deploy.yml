@@ -1,4 +1,4 @@
-name: 🚀 Deploy to GitHub Pages
+name: 🚀 Build and Deploy to GitHub Pages
 
 on:
   push:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -26,7 +26,7 @@ jobs:
       - name: Build project
         run: npm run build -- --base=/dunamis-music-votuporanga-landing/
 
-      - name: Deploy to GitHub Pages 🚀
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
