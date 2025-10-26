@@ -9,6 +9,8 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  // 👇 Adicione esta linha (a base é o nome do seu repositório no GitHub)
+  base: "/dunamis-music-votuporanga-landing/",
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
