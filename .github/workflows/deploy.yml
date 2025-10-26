@@ -26,7 +26,7 @@ jobs:
         run: npm ci
 
       - name: Build Vite project
-        run: npm run build -- --base=/dunamis-music-votuporanga-landing/
+        run: npm run build
 
       - name: Upload build to GitHub Pages
         uses: actions/upload-pages-artifact@v3
