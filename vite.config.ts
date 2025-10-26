@@ -4,10 +4,14 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "", // 👈 caminho relativo (ESSENCIAL para GitHub Pages)
+  base: "./", // 👈 caminho relativo (funciona em qualquer subpasta)
   server: {
     host: "::",
     port: 8080,
+  },
+  build: {
+    outDir: "dist",
+    emptyOutDir: true,
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
