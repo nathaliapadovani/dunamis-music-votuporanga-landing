@@ -1,75 +1,83 @@
-# Welcome to your Lovable project
+# 🎸 Escola de Música Dunamis — Landing Page  
 
-## Project info
+> 🌟 Projeto real desenvolvido para a **Escola de Música Dunamis (Votuporanga-SP)**, unindo análise funcional, design, automação e deploy inteligente com IA.
 
-**URL**: https://lovable.dev/projects/c03d67bd-19d6-407e-a5fb-c25af2aabc1f
+---
 
-## How can I edit this code?
+## 🔗 **Acesse o site online:**  
+➡️ [https://nathaliapadovani.github.io/dunamis-music-votuporanga-landing/](https://nathaliapadovani.github.io/dunamis-music-votuporanga-landing/)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🧩 Sobre o Projeto  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c03d67bd-19d6-407e-a5fb-c25af2aabc1f) and start prompting.
+Este projeto foi desenvolvido a partir de uma **análise de requisitos feita diretamente com a cliente**, dona da escola de música.  
+Durante o processo, realizei:
 
-Changes made via Lovable will be committed automatically to this repo.
+- 📋 **Levantamento funcional e visual** (textos, cores, fotos e identidade extraídas do Instagram oficial da escola);  
+- ✨ **Criação e refinamento de prompt personalizado** para o **Lovable AI**, que gerou a primeira versão da landing page;  
+- 🧠 **Ajustes manuais e técnicos** após o protótipo, incluindo:
+  - Otimização para **mobile-first** e diferentes tamanhos de tela;  
+  - Melhoria de **SEO e acessibilidade**;  
+  - Ajustes para **performance máxima no Google Lighthouse**;  
+- ⚙️ **Implementação do pipeline CI/CD completo** com **GitHub Actions + GitHub Pages** (deploy automático a cada push);  
+- 🤖 **Apoio de IA generativa** (GPT-5 mini e Claude Sonnet 3.5) para gerar e explicar o código do workflow e otimizações.
 
-**Use your preferred IDE**
+📅 **Período do projeto:**  
+Início — 10 de setembro de 2025  
+Conclusão — 26 de outubro de 2025  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tecnologias e Ferramentas  
 
-Follow these steps:
+| Categoria | Ferramentas |
+|------------|-------------|
+| **Front-End** | React ⚛️ · TypeScript 💙 · Vite ⚡ · Tailwind CSS 🎨 |
+| **Automação e IA** | Lovable AI · GPT-5 mini · Claude Sonnet 3.5 |
+| **Versionamento** | Git · GitHub |
+| **CI/CD** | GitHub Actions · GitHub Pages |
+| **Design & Inspiração** | Identidade visual baseada no Instagram da escola |
+| **Testes e Métricas** | Google Lighthouse · Responsividade Mobile |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Deploy e Automação  
 
-# Step 3: Install the necessary dependencies.
-npm i
+O projeto conta com **pipeline automatizado** no GitHub Actions:  
+1. Ao dar `git push`, o workflow executa o build do Vite.  
+2. Gera automaticamente a pasta `dist`.  
+3. Publica o site na branch `gh-pages`.  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+📦 Resultado: deploy rápido, sem intervenção manual e com versionamento completo.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧠 Aprendizados e Evolução  
 
-**Use GitHub Codespaces**
+Durante o desenvolvimento, aprofundei meu conhecimento em:  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- 🧩 **Engenharia de prompts** (Lovable e GPT-5 mini para automação de código e documentação);  
+- ⚙️ **CI/CD moderno com GitHub Actions**;  
+- 🌐 **Deploy de aplicações React/Vite** em ambientes estáticos;  
+- 📱 **Responsividade e UX otimizada** para mobile;  
+- 📊 **SEO e performance** (Google Lighthouse 95+);  
+- 🔍 **Colaboração entre IA e desenvolvedor**, transformando ideias em código funcional.  
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 💬 Créditos  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+👩‍💻 **Desenvolvido por:** [Nathalia Oliveira Padovani](https://github.com/nathaliapadovani)  
+📍 Analista de Sistemas & Desenvolvedora Front-End  
+🎓 Projeto orientado por automação e inteligência artificial aplicada ao desenvolvimento web.  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/c03d67bd-19d6-407e-a5fb-c25af2aabc1f) and click on Share -> Publish.
+### 🏁 Resultado Final  
 
-## Can I connect a custom domain to my Lovable project?
+> “Da ideia à entrega — um projeto real, completo e automatizado, com IA como parceira de desenvolvimento.”  
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-
-Atualização de limpeza de UI.
+✨ *Se você gostou do projeto, não esqueça de deixar uma ⭐ no repositório!*  
