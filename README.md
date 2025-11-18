@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 **Acesse o site online:**  
-➡️ [https://nathaliapadovani.github.io/dunamis-music-votuporanga-landing/](https://nathaliapadovani.github.io/dunamis-music-votuporanga-landing/)
+➡️ [https://escolademusicadunamis.com.br/](https://escolademusicadunamis.com.br/)
 
 ---
 
